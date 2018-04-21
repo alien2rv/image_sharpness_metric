@@ -1,7 +1,8 @@
+
 function [im_grad, theta] = im_gradient(img);
 
-img = rgb2gray(img);
-img = double(img);
+%img = rgb2gray(img);
+%img = double(img);
 [r,c] = size(img);
 a = [-1 -2 -1 0 0 0 1 2 1];
 b = [-1 0 1 -2 0 2 -1 0 1];
@@ -52,4 +53,4 @@ for i = 1: r
     end
 end
              
-
+end

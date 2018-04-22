@@ -2,7 +2,7 @@ function [prop, cont, mn_grad] = img_sharp(img)
 
 %img = imread('/home/ravi/Desktop/matlab/project_imagesharp/Lena.png');
 %--------gaussian smoothing filter-------
-[img] = im_avg(img);
+%[img] = im_avg(img);
 %------- image gradient , theta----------
 [img_grad,theta] = im_gradient(img);
 %-------mean_grad and threshold---------

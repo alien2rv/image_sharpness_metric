@@ -1,6 +1,6 @@
 function img_avg = im_avg(img)
-img = rgb2gray(img);
-img = double(img);
+%img = rgb2gray(img);
+%img = double(img);
 [r,c] = size(img);
 img_avg = zeros(r,c);
 a = 1/9; 
